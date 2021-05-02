@@ -39,8 +39,6 @@ const Slider = (props: Props) => {
   } = props;
 
   const containerStyle = customSliderStyle?.containerStyle || {};
-  const customTrackStyle = customSliderStyle?.trackStyle || {};
-  const customThumbStyle = customSliderStyle?.thumbStyle || {};
 
   const dragging = (value: number) => {
     const { onSeeking, playerState } = props;
